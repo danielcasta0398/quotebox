@@ -27,20 +27,7 @@ const colors = ['#FF6633', '#FFB399', '#FF33FF', '#00B3E6',
                 <p>{user.quote}</p>
             </div>            
             <p className='author'><em>{user.author}</em></p>
-            <div className='bt'><button onClick={changeUser} style={{background:changeColor}} ><i class="fa-solid fa-angle-right angle"></i></button> </div> 
-          {/* 
-            <div className='content-principal'>
-            <div className='quote'>
-                <i class="fa-solid fa-quote-left quoote"></i>
-                <p className='text'>{user.quote}</p>
-                
-                </div>            
-            <p className='author'><em>{user.author}</em></p> 
-            
-            <button onClick={changeUser} style={{background:changeColor}} ><i class="fa-solid fa-angle-right angle"></i></button> 
-
-            </div> */
-            }
+            <div className='bt'><button onClick={changeUser} style={{background:changeColor}} ><i class="fa-solid fa-angle-right angle"></i></button> </div>          
 
         
         </div>
